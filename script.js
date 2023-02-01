@@ -10,7 +10,8 @@ console.log(url)
 
 
 //we are in chapter list
-var chapters = document.getElementsByClassName("chapter-link")
+//manganato.com
+var chapters = document.getElementsByClassName("text-nowrap")
 console.log("chapters")
 console.log(chapters)
 for (let c=0 ; c < chapters.length-1 ; c++) {

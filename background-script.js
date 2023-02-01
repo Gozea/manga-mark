@@ -10,7 +10,7 @@ function connected(p) {
     console.log("received msg")
     var chap = m.chapter
     console.log(chap)
-    browser.storage.local.set({i: chap});
+    browser.storage.local.set({[i]: chap});
     i += 1
   });
 }
