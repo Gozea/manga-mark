@@ -14,9 +14,9 @@
 
     "content_scripts": [{
       "matches": [
-        "<all_urls>"
+	"https://mangadex.org/*"
       ],
-      "js": ["script.js"],
+      "js": ["script.js", "jquery.min.js"],
       "run_at": "document_start"
     }],
 
@@ -26,6 +26,8 @@
 
     "permissions": [
     	"webNavigation",
-    	"storage"
+    	"storage",
+	"webRequest",
+	"history"
     ]
 }
