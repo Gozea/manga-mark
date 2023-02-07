@@ -11,8 +11,17 @@ function connected(p) {
     console.log("received msg")
     var chap = m.chapter
     var link = m.link
+    var icon = m.icon
+    var title = m.title
     console.log(chap)
-    browser.storage.local.set({[link]: chap});
+    console.log(link)
+    var data =  {
+		"link": link,
+		"chapter": chap,
+		"icon": icon,
+		"title": title
+	   } 
+    browser.storage.local.set({[link]: data });
     i += 1
   });
 }
