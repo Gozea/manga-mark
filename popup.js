@@ -20,3 +20,9 @@ browser.storage.local.get().then(function (result) {
     }
   }
 });
+
+document.getElementById("mangamark").addEventListener("click", () => {
+	let markpage = browser.tabs.create({
+		url:"/page/page.html"
+	})
+})
