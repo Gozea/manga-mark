@@ -14,7 +14,7 @@
 
 # Utilisation
 * Ouvrir le lien de liste de chapitre (exemple: [https://mangadex.org/title/270f205c-e9a6-4b24-b940-59d5c07829d1/gal-ni-yasashii-otaku-kun](https://mangadex.org/title/270f205c-e9a6-4b24-b940-59d5c07829d1/gal-ni-yasashii-otaku-kun)
-* Lancer l'addon **après* que les chapitres aient chargés dans la page
+* Lancer l'addon **après** que les chapitres aient chargés dans la page
 * Cliquer sur un chapitre
 * Recharger l'addon puis rouvrir la popup ?
 * Le chapitre apparaitra peut-être dans la popup
