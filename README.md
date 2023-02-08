@@ -3,7 +3,7 @@
 * Extraire le fichier zip
 * Aller sur les paramètres d'Extension de son navigateur.
 ## Instruction sur Firefox
-* Appuyez sur la roue dentée
+* Appuyez sur la roue dentée puis "Déboguer des modules"
 * Cliquer sur "Charger un module complémentaire temporaire" et sélectionner le fichier *manifest.json* contenue dans le dossier extrait
 ## Sur d'autres navigateurs (Chrome...)
 * La procédure doit être semblable que pour Firefox.
