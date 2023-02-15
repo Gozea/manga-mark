@@ -19,9 +19,20 @@ myPort.onMessage.addListener((m) => {
 			console.log(img)
 			for (let c=0 ; c < chapters.length-1 ; c++) {
 				console.log(chapters[c])
+				let chapdiv = chapters[c].parentNode
+				let chap = chapdiv.title
+				let href = chapdiv.href
 				chapters[c].addEventListener("click", () => {
-					var chap = chapters[c].title
-					var href = chapters[c].href
+					console.log("N° ")
+					console.log(title)
+					myPort.postMessage({chapter: chap, link: href, icon: img, title: title})
+				})
+				chapdiv.addEventListener("click", () => {
+					console.log("N° ")
+					console.log(title)
+					myPort.postMessage({chapter: chap, link: href, icon: img, title: title})
+				})
+				chapdiv.parentNode.addEventListener("click", () => {
 					console.log("N° ")
 					console.log(title)
 					myPort.postMessage({chapter: chap, link: href, icon: img, title: title})
